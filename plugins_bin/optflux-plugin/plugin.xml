@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin start="true" startOrder="1">
+	<uid>optflux.projecto</uid>
+	<name>merlin Database Connector</name>
+	<version>3.3.0</version>
+	<lifecycleclass>pt.uminho.ceb.biosystems.merlindbconnector.lifecycle.Lifecycle</lifecycleclass>
+	<dependencies>
+		<dependency uid="org.optflux.core"/>
+	</dependencies>
+	
+
+	<extensions>
+
+<!-- 		<extension class="org.omeuplugin.AminhaClass" name="aibench.core.operation-definition" uid="aibench.core"> -->
+<!-- 					<operation-description name="My optflux" path="999@File" uid="coisa QQ"/> -->
+<!-- 		</extension> -->
+			
+		
+	</extensions>
+
+</plugin>

@@ -104,6 +104,27 @@
 							</resources>
 						</configuration>
 					</execution>
+					<execution>
+						<id>copy-optflux-plugin-to-source</id>
+						<phase>compile</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>C:/Users/Utilizador/git/optflux_plugin/plugins_bin/optflux-plugin</outputDirectory>
+							<resources>
+								<resource>
+									<directory>target/classes</directory>
+									<filtering>false</filtering>
+								</resource>
+								<resource>
+									<directory>src/main/resources</directory>
+									<filtering>false</filtering>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+					
 				</executions>
 			</plugin>
 			<plugin>
